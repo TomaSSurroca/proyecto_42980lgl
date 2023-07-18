@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2? family= Karla:ital,wght@0,500;0,600;1,400 & family= Titillium+Web:wght@300 & display=swap');
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.header_sticky{
+    line-break: auto;
+    list-style-type: none;
+    background-color: gray;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    top: 0px;
+    z-index: 10px;   
+    width: 1500px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.ancla_css{
+    display: inline;
+     margin-right: 10px;
+     
+}
+
+
+/* no pude sacar aunque si era mi intencion el borde blanco entre el header y el main, pedi ayuda al coder ask pero no lo logre*/
+/* me falto modificar bien la imagen y mover de lugar algunos cosas, y lo que no encontre como hacer son las anclas del index con imagenes creo que se enseñan despues*/
+.titulo{
+    background-color: rgb(93, 19, 35); 
+    color: azure;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+
+}
+
+
+
+
+
+.wsp{
+    background-color: green;
+    position: fixed;
+    bottom: 10px;
+      right: 10px;
+      font-size: 30px;
+}
+
+.anclas{
+    background-color: darkgray;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.seccion{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.seccion img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+     
+}
+
+.seccion_2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 35px;
+
+}
+
+    
+
+.herencia{
+    background-color:rgb(93, 19, 35) ;
+    color: aliceblue;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.fundadores{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+
+.fundadores img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+
+.img{
+    background-color:rgb(93, 19, 35)  ;
+    
+}
+.herencia_mm{
+    background-color: rgb(93, 19, 35);
+    color: aliceblue;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600
+}
+
+.vehiculos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.autos{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.autos img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.li_mm{
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400
+}
+.subt{
+    font-size: 60px;
+}
+.ve_css{
+    color: darkgray;
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400
+}
+.ubi_css{
+    background-color: rgb(93, 19, 35);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600
+}
+.ubi_2{
+    background-color: darkgray;
+    color: black;
+    
+
+}
+
+
+.negocios{
+
+    width: 40%;
+    height: 600px;
+
+}
+
+.negocios img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.du_css{
+    background-color: rgb(93, 19, 35);
+}
+    
+.tit_css{
+    color: rgb(226, 217, 217);
+    font-size:45px ;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600
+}
+
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.galeriacss{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+.galeriacss img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+.lis_2{
+    color: azure;
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500
+}
+.h_css{
+    color: rgb(152, 151, 151);
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400
+}
+.hdr_css{
+  background-color: rgb(55, 55, 55); 
+  color: black; 
+  list-style: none;
+  font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  
+}
+.cnt_css{
+    background-color: darkgray;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500
+    
+}
+.fot_css{
+    background-color: rgb(55, 55, 55);
+    color: darkgray;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: block;
+    width: 1600px;
+}
