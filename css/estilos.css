@@ -22,12 +22,6 @@
     font-weight: 600;
     font-size: 30px;
 }
-.ancla_css{
-    display: inline;
-     margin-right: 10px;
-     
-}
-
 
 /* no pude sacar aunque si era mi intencion el borde blanco entre el header y el main, pedi ayuda al coder ask pero no lo logre*/
 /* me falto modificar bien la imagen y mover de lugar algunos cosas, y lo que no encontre como hacer son las anclas del index con imagenes creo que se enseñan despues*/
@@ -51,19 +45,19 @@
       font-size: 30px;
 }
 
-.anclas{
-    background-color: darkgray;
-    flex-direction: row;
+.iconos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
    
 }
-.seccion{
+
+.seccion {
     width: 500px;
     height: 500px;
     text-align: center;
+    
     
 }
 
@@ -71,6 +65,7 @@
     width: 60%;
     height: 60%;
     object-fit: cover;
+    justify-content: center;
      
 }
 
@@ -260,4 +255,110 @@
     margin-left: 0px;
     display: block;
     width: 1600px;
+}
+
+
+.body{
+    height: 100vh;
+
+}
+
+.header{
+    height: 20%;
+    
+    
+}
+
+.anclas{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+
+.ancla_css{
+    color: aliceblue;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 1em;
+    
+    
+    
+
+}
+
+.nav{
+    background-color: rgb(93, 19, 35);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+    
+}
+.divlogo{
+    background-color: rgb(93, 19, 35);
+    list-style: none;
+    
+}
+
+.main{
+    height: 60%;
+
+
+
+}
+.iconos{
+    background-color: darkgray;
+}
+.seccion{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.seccion img{
+    width: 60%;
+    height: 60%;
+    
+     
+}
+
+
+.service{
+    color: aliceblue;
+    
+}
+
+
+.footer{
+    height: 20%;
+    background-color: rgb(93, 19, 35);
+    padding: 0%;
+    margin: 0%;
+}
+
+.foo{
+    background-color: rgb(93, 19, 35);
+    height: 100%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+@media screen and  (max widht: 768px) {
+    .anclas{
+        flex-direction: column;
+    }
+
+    
 }
