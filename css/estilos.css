@@ -94,8 +94,8 @@
 
 
 .fundadores{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -171,9 +171,9 @@
 
 .negocios{
 
-    width: 40%;
+    width: 60%;
     height: 600px;
-
+    flex-wrap: wrap;
 }
 
 .negocios img{
@@ -266,44 +266,15 @@
 .header{
     height: 20%;
     
-    
 }
 
-.anclas{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    
+.bgWhite{
+background-color: darkgrey;
+font-size: 25px;
 
 }
 
 
-.ancla_css{
-    color: aliceblue;
-    font-style: italic;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin: 0 1em;
-    
-    
-    
-
-}
-
-.nav{
-    background-color: rgb(93, 19, 35);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    
-    
-}
 .divlogo{
     background-color: rgb(93, 19, 35);
     list-style: none;
@@ -352,13 +323,4 @@
     height: 100%;
     font-size: 20px;
     color: aliceblue;
-}
-
-
-@media screen and  (max widht: 768px) {
-    .anclas{
-        flex-direction: column;
-    }
-
-    
 }
